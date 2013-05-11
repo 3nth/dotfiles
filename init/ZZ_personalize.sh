@@ -53,5 +53,3 @@ if [ ! -e ~/.vim/bundle/vundle ]; then
 	git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 fi
 
-e_header "Running BundleInstall"
-vim +BundleInstall +qall
